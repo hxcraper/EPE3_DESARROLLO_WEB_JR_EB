@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    align-items: center;
+
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Para centrar el contenido */
+    align-items: center;
+
+}
+
+/* Heading styling */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    align-items: center;
+
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Alineación del texto a la izquierda */
+    align-items: center;
+
+}
+
+ul li {
+    margin-bottom: 10px;
+    align-items: center;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    align-items: center;
+
+}
+
+ul li a:hover {
+    color: #0056b3;
+    align-items: center;
+
+}
+
+/* Logout link styling */
+a.logout-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+
+}
+
+a.logout-link:hover {
+    background-color: #0056b3;
+    align-items: center;
+
+}
